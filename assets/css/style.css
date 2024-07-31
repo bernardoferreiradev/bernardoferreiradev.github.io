@@ -1,0 +1,67 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.initializer-message {
+    margin-bottom: 1rem;
+    color: rgb(97, 97, 97);
+}
+
+.initializer-message p {
+    margin: 0;
+}
+
+.user-perm {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.user-perm p {
+    font-size: 1rem;
+    color: green;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+#user-input {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+    flex-grow: 1;
+    margin-left: 5px;
+    resize: none;
+    height: 1.5rem;
+    min-width: 0;
+}
+
+.response {
+    color: white;
+    margin-top: 0;
+}
+
+.command {
+    color: green;
+}
+
+@media (max-width: 600px) {
+    .initializer-message {
+        margin-bottom: 0.5rem;
+    }
+    .user-perm p,
+    #user-input {
+        font-size: 0.875rem;
+    }
+}
