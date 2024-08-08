@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>CONTACT: Contact details</p>
                 <p>EDUCATION: Where did I study and dates</p>
                 <p>SKILLS: Technologies I've worked with</p>
-                <p>NEOFETCH: Inspired by the Arch Linux distro 'neofetch' command</p>
+                <p>NEOFETCH: Inspired in the 'neofetch' command</p>
                 <p>CLEAR: Clears the terminal output</p>
                 `;
                 break;
