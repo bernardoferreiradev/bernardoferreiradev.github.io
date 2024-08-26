@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 response = 'I study Computer Science at "Universidade Lusófona do Porto" since 2022';
                 break;
             case 'skills':
-                response = 'So far I have worked with Python, Java (JSP / JDBC), MySQL and C. <br> I`ve been also learning self-teaching cibersecurity concepts and methologies. <br> I enjoy tackling and observing Capture The Flag (CTF) challenges.';
+                response = 'So far I have worked with Python, Java (JSP / JDBC), MySQL and C. <br> I`ve been also learning self-teaching cibersecurity concepts and methologies. <br> I enjoy solving Capture The Flag (CTF) challenges.';
                 break;
             case 'neofetch':
                 response = `
